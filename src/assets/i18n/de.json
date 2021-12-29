@@ -1,0 +1,48 @@
+{
+  "welcome": "Willkommen auf Bizerba",
+  "localization": "Machbarkeitsnachweis für die Lokalisierung",
+  "header": {
+    "arabic": "arabisch",
+    "chineese": "chinesisch",
+    "english" : "englisch(US)",
+    "german" : "deutsch",
+    "hebrew" : "hebräisch",
+    "spanish" : "spanisch"
+  },
+  "dates": {
+    "title": "DATEN",
+    "today": "Heute",
+    "increaseCurrentDate": "Aktuelles Datum erhöhen",
+    "weekDays": "Wochentage",
+    "increaseTitle": "Datum erhöhen",
+    "pipesTitle": "Rohre",
+    "queries": "Anfragen",
+    "timezone": "Zeitzone",
+    "getTimeZone": "Erhalte {{ userTimezone }} Zeitzone",
+    "isBebore": "ist vor",
+    "isSame": "ist gleich",
+    "isAfter": "ist nach",
+    "isSameBefore": "ist gleich oder früher",
+    "isSameAfter": "ist gleich oder nach",
+    "isBetween": "liegt zwischen {{date1}} und {{date2}}",
+    "longDateFormat": "Langes Datumsformat",
+    "longDateTimeFormat": "Zeitformat für langes Datum",
+    "shortDateFormat": "Kurzes Datumsformat",
+    "fromUnix": "von Unix konvertieren format {{format}}",
+    "extractYears": "Extrahiere {{years}} Jahre vom Datum {{date}} mit dem Datumsformat {{format}}",
+    "formatTo": "formatieren in",
+    "addHours": "Fügen Sie {{hours}} Stunden zu {{date}} mit dem Datumsformat {{format}} hinzu",
+    "expirationDate": "Ablaufdatum von {{dateFrom}} bis {{dateTo}}"
+  },
+  "navbar": {
+    "currencies": "Währungen",
+    "dates": "Termine",
+    "translations" : "Übersetzungen"
+  },
+  "currency": {
+    "title": "Währungsformat und Zahlenformat",
+    "initial": "Anfangszahl",
+    "numberFormat": "Zahl formatiert",
+    "priceFormat": "Preis formatiert"
+  }
+}

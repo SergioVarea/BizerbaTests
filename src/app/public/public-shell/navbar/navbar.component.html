@@ -1,0 +1,11 @@
+<nav>
+  <span [routerLink]="['./currencies']" [routerLinkActive]="['isActive']">
+    {{ "navbar.currencies" | translate }}
+  </span>
+  <span [routerLink]="['./dates']" [routerLinkActive]="['isActive']">
+    {{ "navbar.dates" | translate }}
+  </span>
+  <span [routerLink]="['./translations']" [routerLinkActive]="['isActive']">
+    {{ "navbar.translations" | translate }}
+  </span>
+</nav>

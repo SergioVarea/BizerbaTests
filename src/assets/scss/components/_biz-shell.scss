@@ -1,0 +1,11 @@
+// Shell 
+.biz-shell {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.biz-shell__view-wrap {
+    flex-grow: 1;
+    min-height: 0;
+}

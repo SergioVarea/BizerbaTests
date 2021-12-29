@@ -1,0 +1,22 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+:host {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font: {
+        family: 'Noto Sans Display', sans-serif;
+    }
+    ;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}

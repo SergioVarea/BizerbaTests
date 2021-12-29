@@ -1,0 +1,110 @@
+// Sass variables
+// Brand colors
+$biz-brand-color-primary: rgba(255, 255, 255, 1); 
+$biz-brand-color-secondary: rgba(0, 0, 0, 1);
+$biz-brand-color-tertiary: rgba(238, 237, 237, 1);
+$biz-brand-color-quaternary: rgba(255, 255, 255, 0.4);
+$biz-brand-color-quinary: rgba(0, 0, 0, 0.4);
+$biz-brand-color-senary: rgba(238, 237, 237, 0.4);
+// Project colors
+$biz-basic-color-primary: rgba(32, 52, 75, 1);
+$biz-basic-color-secondary: rgba(54, 85, 122, 1);
+$biz-basic-color-tertiary: rgba(75, 117, 162, 1);
+$biz-basic-color-quaternary: rgba(121, 166, 218, 1);
+$biz-basic-color-quinary: rgba(180, 214, 244, 1);
+$biz-basic-color-senary: rgba(195, 181, 139, 1);
+// Text colors
+$biz-text-color-primary: rgba(255, 255, 255, 1);
+$biz-text-color-secondary: rgba(0, 0, 0, 1);
+$biz-text-color-tertiary: rgba(238, 237, 237, 1);
+$biz-text-color-quaternary: rgba(32, 52, 75, 1);
+// State colors
+$biz-error-color-primary: rgba(255, 0, 56, 1);
+$biz-error-color-secondary: rgba(255, 0, 56, 0.4);
+$biz-success-color-primary: rgba(42, 242, 56, 1);
+$biz-success-color-secondary: rgba(42, 242, 56, 0.4);
+$biz-warning-color-primary: rgba(255, 130, 0, 1);
+$biz-warning-color-secondary: rgba(255, 130, 0, 0.4);
+$biz-info-color-primary: rgba(0, 127, 255, 1);
+$biz-info-color-secondary: rgba(0, 127, 255, 0.4);
+// FONT SIZES
+$biz-font-size-xxx-large: 2.125rem; // 34px
+$biz-font-size-xx-large: 1.875rem; // 30px
+$biz-font-size-x-large: 1.5rem; // 24px
+$biz-font-size-large: 1.125rem; // 18px
+$biz-font-size-medium: 1rem; // 16px
+$biz-font-size-small: .875rem; // 14px
+$biz-font-size-x-small: .8125rem; // 13px
+$biz-font-size-xx-small: .75rem; // 12px
+$biz-font-size-xxx-small: .6875rem; // 11px
+// SPACINGS
+$biz-spacing-xxx-large: 2rem; // 32px
+$biz-spacing-xx-large: 1.875rem; // 30px
+$biz-spacing-x-large: 1.5rem; // 24px
+$biz-spacing-large: 1.125rem; // 18px
+$biz-spacing-medium: 1rem; // 16px
+$biz-spacing-small: .75rem; // 12px
+$biz-spacing-x-small: .5rem; // 8px
+$biz-spacing-xx-small: .375rem; // 6px
+$biz-spacing-xxx-small: .25rem; // 4px
+// RADIUS
+$biz-border-radius-small: .25rem; // 4px
+$biz-border-radius-large: .375rem; // 6px
+
+
+// Root variables
+:root {
+    // COLORS
+    // Brand colors
+    --biz-brand-color-primary: #{$biz-brand-color-primary}; // rgba(255, 255, 255, 1) #ffffff
+    --biz-brand-color-secondary: #{$biz-brand-color-secondary}; // rgba(0, 0, 0, 1) #000000
+    --biz-brand-color-tertiary: #{$biz-brand-color-tertiary};  // rgba(238, 237, 237, 1) #eeeded
+    --biz-brand-color-quaternary: #{$biz-brand-color-quaternary}; // rgba(255, 255, 255, 0.4)
+    --biz-brand-color-quinary: #{$biz-brand-color-quinary}; // rgba(0, 0, 0, 0.4)
+    --biz-brand-color-senary: #{$biz-brand-color-senary}; // rgba(238, 237, 237, 0.4)
+    // Project colors
+    --biz-basic-color-primary: #{$biz-basic-color-primary}; // rgba(32, 52, 75, 1)
+    --biz-basic-color-secondary: #{$biz-basic-color-secondary}; // rgba(54, 85, 122, 1)
+    --biz-basic-color-tertiary: #{$biz-basic-color-tertiary}; // rgba(75, 117, 162, 1)
+    --biz-basic-color-quaternary: #{$biz-basic-color-quaternary}; // rgba(121, 166, 218, 1)
+    --biz-basic-color-quinary: #{$biz-basic-color-quinary}; // rgba(180, 214, 244, 1)
+    --biz-basic-color-senary: #{$biz-basic-color-senary}; // rgba(195, 181, 139, 1)
+    // Text colors
+    --biz-text-color-primary: #{$biz-text-color-primary}; // rgba(255, 255, 255, 1)
+    --biz-text-color-secondary: #{$biz-text-color-secondary}; // rgba(0, 0, 0, 1)
+    --biz-text-color-tertiary: #{$biz-text-color-tertiary}; // rgba(238, 237, 237, 1)
+    --biz-text-color-quaternary: #{$biz-text-color-quaternary}; // rgba(32, 52, 75, 1)
+    // State colors
+    --biz-error-color-primary: #{$biz-error-color-primary}; // rgba(255, 0, 56, 1)
+    --biz-error-color-secondary: #{$biz-error-color-secondary}; // rgba(255, 0, 56, 0.4)
+    --biz-success-color-primary: #{$biz-success-color-primary}; // rgba(42, 242, 56, 1)
+    --biz-success-color-secondary: #{$biz-success-color-secondary}; // rgba(42, 242, 56, 0.4)
+    --biz-warning-color-primary: #{$biz-warning-color-primary}; // rgba(255, 130, 0, 1)
+    --biz-warning-color-secondary: #{$biz-warning-color-secondary}; // rgba(255, 130, 0, 0.4)
+    --biz-info-color-primary: #{$biz-info-color-primary}; // rgba(0, 127, 255, 1)
+    --biz-info-color-secondary: #{$biz-info-color-secondary}; // rgba(0, 127, 255, 0.4)
+    // FONT SIZES
+    --biz-font-size-xxx-large: #{$biz-font-size-xxx-large}; // 2.125rem; // 34px
+    --biz-font-size-xx-large: #{$biz-font-size-xx-large}; // 1.875rem; // 30px
+    --biz-font-size-x-large: #{$biz-font-size-x-large}; // 1.5rem; // 24px
+    --biz-font-size-large: #{$biz-font-size-large}; // 1.125rem; // 18px
+    --biz-font-size-medium: #{$biz-font-size-medium}; // 1rem; // 16px
+    --biz-font-size-small: #{$biz-font-size-small}; // .875rem; // 14px
+    --biz-font-size-x-small: #{$biz-font-size-x-small}; // .8125rem; // 13px
+    --biz-font-size-xx-small: #{$biz-font-size-xx-small}; // 12px; // 12px
+    --biz-font-size-xxx-small: #{$biz-font-size-xxx-small}; // 11px; // 11px
+    // SPACINGS
+    --biz-spacing-xxx-large: #{$biz-spacing-xxx-large}; // 2rem; // 32px
+    --biz-spacing-xx-large: #{$biz-spacing-xx-large}; // 1.875rem; // 30px
+    --biz-spacing-x-large: #{$biz-spacing-x-large}; // 1.5rem; // 24px
+    --biz-spacing-large: #{$biz-spacing-large}; // 1.125rem; // 18px
+    --biz-spacing-medium: #{$biz-spacing-medium}; // 1rem; // 16px
+    --biz-spacing-small: #{$biz-spacing-small}; // .75rem; // 12px
+    --biz-spacing-x-small: #{$biz-spacing-x-small}; // .5rem; // 8px
+    --biz-spacing-xx-small: #{$biz-spacing-xx-small}; // .375rem; // 6px
+    --biz-spacing-xxx-small: #{$biz-spacing-xxx-small}; // .25rem; // 4px
+    // RADIUS
+    --biz-border-radius-small: #{$biz-border-radius-small}; // .25rem; // 4px
+    --biz-border-radius-large: #{$biz-border-radius-large}; // 6px; // 6px
+  }
+

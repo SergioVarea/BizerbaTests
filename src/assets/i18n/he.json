@@ -1,0 +1,49 @@
+
+{
+  "welcome": "ברוכים הבאים לביזרבה",
+  "localization": "הוכחת קונספט לוקליזציה",
+  "header": {
+    "arabic": "עֲרָבִית",
+    "chineese": "סִינִית",
+    "english" : "אנגלית",
+    "german" : "גֶרמָנִיָת",
+    "hebrew" : "עִברִית",
+    "spanish" : "ספרדית"
+  },
+  "dates": {
+    "title":  "תאריכים",
+    "today":  "היום",
+    "increaseCurrentDate": "הגדל את התאריך הנוכחי",
+    "weekDays": "ימי השבוע",
+    "increaseTitle": "הגדלת תאריך",
+    "pipesTitle": "צינורות",
+    "queries": "שאילתות",
+    "timezone": "אזור זמן",
+    "getTimeZone": "קבל את {{ userTimezone }} אזור זמן",
+    "isBebore":  "הוא לפני",
+    "isSame": "זה אותו הדבר",
+    "isAfter": "אחרי",
+    "isSameBefore": "זהה או לפני",
+    "isSameAfter": "זהה או אחרי",
+    "isBetween": "הוא בין {{date1}} לבין {{date2}}",
+    "longDateFormat": "פורמט תאריך ארוך",
+    "longDateTimeFormat": "פורמט תאריך זמן ארוך",
+    "shortDateFormat": "פורמט תאריך קצר",
+    "fromUnix": "מ-Unix המר פורמט {{format}}",
+    "extractYears": "חלץ {{years}} שנים מהתאריך {{date}} עם פורמט התאריך {{format}}",
+    "formatTo": "פורמט ל",
+    "addHours": "הוסף {{hours}} שעות ל-{{date}} עם פורמט התאריך {{format}}",
+    "expirationDate": "תאריך תפוגה מ-{{dateFrom}} עד {{dateTo}}"
+  },
+  "navbar": {
+    "currencies": "מטבעות",
+    "dates": "תאריכים",
+    "translations" : "תרגומים"
+  },
+  "currency": {
+    "title": "פורמט מטבע ומספר",
+    "initial": "מספר ראשוני",
+    "numberFormat": "פורמט של מספר",
+    "priceFormat":  "פורמט של מחיר"
+  }
+}

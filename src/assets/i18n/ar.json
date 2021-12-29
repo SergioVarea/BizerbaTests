@@ -1,0 +1,48 @@
+{
+  "welcome": "مرحبًا بكم في Bizerba",
+  "localization":  "إثبات التوطين",
+  "header": {
+    "arabic": "عربى",
+    "chineese": "صينى",
+    "english" : "الإنجليزية (الولايات المتحدة)",
+    "german" : "ألمانية",
+    "hebrew" : "اللغة العبرية",
+    "spanish" : "الأسبانية"
+  },
+  "dates": {
+    "title": "تواريخ",
+    "today": "اليوم",
+    "increaseCurrentDate": "زيادة التاريخ الحالي",
+    "weekDays": "ايام الاسبوع",
+    "increaseTitle": "تاريخ الزيادة",
+    "pipesTitle":  "أنابيب",
+    "queries": "استفسارات",
+    "timezone": "وحدة زمنية",
+    "getTimeZone": "احصل على {{userTimezone}} المنطقة الزمنية" ,
+    "isBebore": "قبل",
+    "isSame": "هو نفسه",
+    "isAfter": "هو بعد",
+    "isSameBefore": "هو نفسه أو قبله",
+    "isSameAfter": "هو نفسه أو بعد",
+    "isBetween": "بين {{date1}} و {{date2}}",
+    "longDateFormat": "تنسيق التاريخ الطويل",
+    "longDateTimeFormat": "تنسيق وقت التاريخ الطويل",
+    "shortDateFormat": "تنسيق التاريخ القصير",
+    "fromUnix": "من تنسيق تحويل {{format}}",
+    "extractYears": "استخراج {{years}} سنة من التاريخ {{date}} بتنسيق التاريخ {{format}}",
+    "formatTo": "تنسيق",
+    "addHours": "إضافة {{hours}} ساعة إلى {{date}} بتنسيق التاريخ {{format}}",
+    "expirationDate": "تاريخ انتهاء الصلاحية من {{dateFrom}} إلى {{dateTo}}"
+  },
+  "navbar": {
+    "currencies": "العملات",
+    "dates": "تواريخ",
+    "translations" : "الترجمات"
+  },
+  "currency": {
+    "title":  "تنسيق العملة وتنسيق الأرقام",
+    "initial": "الرقم الأولي",
+    "numberFormat": "الرقم المنسق",
+    "priceFormat":  "السعر المنسق"
+  }
+}

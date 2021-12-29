@@ -1,0 +1,50 @@
+// Header
+.biz-public-header-component {
+  header {
+    margin: auto;
+    width: 100%;
+    padding: var(--biz-spacing-large);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  select {
+      border: none;
+      text-transform: uppercase;
+      font: {
+        size: var(--biz-font-size-xx-small);
+      }
+      text: {
+        transform: uppercase;
+      }
+      letter-spacing: 0.05rem;
+  }
+}
+
+// Media queries
+// Max-width 1200px
+// Non-Retina Screens
+@media screen and (max-device-width: 75rem) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+// Retina Screens
+@media screen and (max-device-width: 75rem) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+}
+
+// Min-width 1200px - Max width 1600px
+// Non-Retina Screens
+@media screen and (min-device-width: 75rem) and (max-device-width: 100rem) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+// Retina Screens
+@media screen and (min-device-width: 75rem) and (max-device-width: 100rem) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+}
+
+// Min-width 1600px
+// Non-Retina Screens
+@media screen and (min-device-width: 100rem) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+// Retina Screens
+@media screen and (min-device-width: 100rem) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+}

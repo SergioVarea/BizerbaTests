@@ -1,0 +1,48 @@
+{
+  "welcome": "Bienvenido a Bizerba",
+  "localization": "Prueba de concepto de localización",
+  "header": {
+    "arabic": "árabe",
+    "chineese": "chino",
+    "english" : "inglés(US)",
+    "german" : "alemán",
+    "hebrew" : "hebreo",
+    "spanish" : "español"
+  },
+  "dates": {
+    "title": "Fechas",
+    "today": "Hoy",
+    "increaseCurrentDate": "Aumentar fecha actual",
+    "weekDays": "Días de la semana",
+    "increaseTitle": "Aumentar fecha",
+    "pipesTitle": "Tuberias",
+    "queries": "Comprobaciones",
+    "timezone": "Zona horaria",
+    "getTimeZone": "Obtener zona horaria{{ userTimezone }}",
+    "isBebore": "es antes",
+    "isSame": "es igual",
+    "isAfter": "es posterior",
+    "isSameBefore": "es igual o anterior",
+    "isSameAfter": "es igual o posterior",
+    "isBetween": "es entre {{date1}} y {{date2}}",
+    "longDateFormat": "Formato largo",
+    "longDateTimeFormat": "Formato de fecha y tiempo largo",
+    "shortDateFormat": "Formato de fecha corto",
+    "fromUnix": "convertir Unix a formato {{format}}",
+    "extractYears": "Extraer {{years}} años de la fecha {{date}} con formato de fecha {{format}}",
+    "formatTo": "formateado a",
+    "addHours": "Añadir {{hours}} horas a {{date}} con formato de fecha {{format}}",
+    "expirationDate": "Expiration date from {{dateFrom}} to {{dateTo}}"
+  },
+  "navbar": {
+    "currencies": "moneda",
+    "dates": "fechas",
+    "translations" : "traducciones"
+  },
+  "currency": {
+    "title": "Formateo de moneda y de número",
+    "initial": "Número inicial",
+    "numberFormat": "Número con formato",
+    "priceFormat": "Moneda con formato"
+  }
+}

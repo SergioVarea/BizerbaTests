@@ -1,0 +1,7 @@
+<div #publicShell class="biz-shell">
+    <biz-public-header-component></biz-public-header-component>
+    <main class="biz-shell__view-wrap" [@routeSlideTopState]="goToView(outlet)">
+      <router-outlet #outlet="outlet"></router-outlet>
+    </main>
+    <biz-public-sidenav-component></biz-public-sidenav-component>
+</div>

@@ -1,0 +1,11 @@
+<header>
+  <biz-logo-component></biz-logo-component>
+
+  <biz-public-navbar-component></biz-public-navbar-component>
+
+  <form [formGroup]="formGroup">
+  <select formControlName="selectedLanguage">
+    <option *ngFor="let language of languages" [value]="language?.locale">{{ language.languageCombo | translate | titlecase }}</option>
+  </select>
+</form>
+</header>

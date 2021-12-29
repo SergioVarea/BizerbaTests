@@ -1,0 +1,21 @@
+// View | Common
+.biz-view {
+  position: relative;
+  overflow-y: auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font: {
+      size: var(--biz-font-size-xxx-large);
+    }
+  }
+  h2 {
+    padding-top: var(--biz-spacing-small);
+    font: {
+      size: var(--biz-font-size-large);
+    }
+  }
+}

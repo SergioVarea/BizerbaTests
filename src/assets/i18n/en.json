@@ -1,0 +1,48 @@
+{
+  "welcome": "Welcome to Bizerba",
+  "localization": "Localization Proof Of Concept",
+  "header": {
+    "arabic": "arabic",
+    "chineese": "chineese",
+    "english" : "english(US)",
+    "german" : "german",
+    "hebrew" : "hebrew",
+    "spanish" : "spanish"
+  },
+  "dates": {
+    "title": "DATES",
+    "today": "Today",
+    "increaseCurrentDate": "Increase Current Date",
+    "weekDays": "Days of week",
+    "increaseTitle": "Increase Date",
+    "pipesTitle": "Pipes",
+    "queries": "Queries",
+    "timezone": "Timezone",
+    "getTimeZone": "Get {{ userTimezone }} Time Zone",
+    "isBebore": "is before",
+    "isSame": "is same",
+    "isAfter": "is after",
+    "isSameBefore": "is same or before",
+    "isSameAfter": "is same or after",
+    "isBetween": "is between {{date1}} and {{date2}}",
+    "longDateFormat": "Long date format",
+    "longDateTimeFormat": "Long date time format",
+    "shortDateFormat": "Short date format",
+    "fromUnix": "from Unix convert format {{format}}",
+    "extractYears": "Extract {{years}} years from date {{date}} with date Format {{format}}",
+    "formatTo": "format to",
+    "addHours": "Add {{hours}} hours to {{date}} with date format {{format}}",
+    "expirationDate": "Expiration date from {{dateFrom}} to {{dateTo}}"
+  },
+  "navbar": {
+    "currencies": "currencies",
+    "dates": "dates",
+    "translations" : "translations"
+  },
+  "currency": {
+    "title": "Currency format and number format",
+    "initial": "Initial number",
+    "numberFormat": "Number formatted",
+    "priceFormat": "Price formatted"
+  }
+}

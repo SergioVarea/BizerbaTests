@@ -1,0 +1,49 @@
+
+{
+  "welcome": "欢迎来到碧彩",
+  "localization": "本地化概念证明",
+  "header": {
+    "arabic": "阿拉伯",
+    "chineese": "中国人",
+    "english" : "英语（美国）",
+    "german" : "德语",
+    "hebrew" : "希伯来语",
+    "spanish" : "西班牙语"
+  },
+  "dates": {
+    "title": "日期",
+    "today": "今天",
+    "increaseCurrentDate": "增加当前日期",
+    "weekDays": "星期几",
+    "increaseTitle": "增加日期",
+    "pipesTitle": "管道",
+    "queries": "查询",
+    "timezone": "时区",
+    "getTimeZone": "获取 {{ userTimezone }} 时区",
+    "isBebore": "在之前",
+    "isSame": "是同样的",
+    "isAfter": "在之后",
+    "isSameBefore": "相同或之前",
+    "isSameAfter": "相同或之后",
+    "isBetween": "在 {{date1}} 和 {{date2}} 之间",
+    "longDateFormat": "长日期格式",
+    "longDateTimeFormat": "长日期时间格式",
+    "shortDateFormat": "短日期格式",
+    "fromUnix": "来自 Unix 转换格式 {{forma}}",
+    "extractYears": "使用日期格式 {{format}} 从日期 {{date}} 中提取 {{years}} 年",
+    "formatTo": "格式为",
+    "addHours": "将 {{hour}} 小时添加到 {{date}}，日期格式为 {{format}}",
+    "expirationDate": "有效期从 {{dateFrom}} 到 {{dateTo}}"
+  },
+  "navbar": {
+    "currencies": "货币",
+    "dates": "日期",
+    "translations" : "翻译"
+  },
+  "currency": {
+    "title": "货币格式和数字格式",
+    "initial": "初始数字",
+    "numberFormat": "数字格式",
+    "priceFormat": "价格格式"
+  }
+}

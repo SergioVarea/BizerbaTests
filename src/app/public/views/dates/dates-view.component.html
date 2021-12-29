@@ -1,0 +1,44 @@
+<div #datesView class="biz-view">
+  <h1>{{ 'dates.title' | translate }}</h1>
+
+  <p>{{ 'dates.today' | translate }}: <b>{{ today }}</b></p>
+
+  <p>{{ 'dates.weekDays' | translate }}: <b>{{ weekdays }}</b></p>
+
+  <hr>
+  <h2><b>{{'dates.timezone' | translate}}</b></h2>
+  <hr>
+  <p>{{'dates.getTimeZone' | translate:{userTimezone:userTimezone} }} : <b>{{ timeZone }}</b></p>
+
+  <hr>
+  <h2><b>{{'dates.queries' | translate}}</b></h2>
+  <hr>
+  <p>{{ date | shortDateFormat }} {{'dates.isBebore' | translate}} {{ datePlusTen | shortDateFormat }}: <b>{{ isBefore }}</b></p>
+  <p>{{ date | shortDateFormat }} {{'dates.isSame' | translate}} {{ datePlusTen | shortDateFormat }}: <b>{{ isSame }}</b></p>
+  <p>{{ date | shortDateFormat }} {{'dates.isAfter' | translate}} {{ datePlusTen | shortDateFormat }}: <b>{{ isAfter }}</b></p>
+  <p>{{ date | shortDateFormat }} {{'dates.isSameBefore' | translate}} {{ datePlusTen | shortDateFormat }}: <b>{{ isSameOrBefore }}</b></p>
+  <p>{{ date | shortDateFormat }} {{'dates.isSameAfter' | translate}} {{ datePlusTen | shortDateFormat }}: <b>{{ isSameOrAfter }}</b></p>
+  <p>{{ datePlusOne | shortDateFormat }} {{'dates.isBetween' | translate:{date1:(date| shortDateFormat), date2:(datePlusTen | shortDateFormat)} }}: <b>{{ isBetween }}</b></p>
+
+  <hr>
+  <h2><b>{{ 'dates.pipesTitle' | translate }}</b></h2>
+  <hr>
+
+  <p>{{ 'dates.longDateFormat' | translate }}: <b>{{ today | longDateFormat }}</b></p>
+  <p>{{ 'dates.longDateTimeFormat'| translate }}: <b>{{ today | longDateTimeFormat }}</b></p>
+  <p>{{ 'dates.shortDateFormat' | translate}}: <b>{{ today | shortDateFormat }}</b></p>
+  <p>1456263980 {{ 'dates.shortDateFormat' | translate:{format:'hh:mm A'} }}: <b>{{ (1456263980 | fromUnix) | dateFormat:'hh:mm A' }}</b></p>
+  <p>{{ 'dates.shortDateFormat' | translate: {years:'5', date:'2021-12-24T16:55:00.000+01:00', format:'YYY-MM-DD HH:mm'} }}: <b>{{ '2021-12-24T16:55:00.000+01:00' | substractDate: 5 : 'years' | dateFormat: 'YYYY-MM-DD HH:mm' }}</b></p>
+  <p>'12/24/2021' {{ 'dates.formatTo' | translate }} 'DD/MM/YYYY': <b>{{ '12/24/2021' | parseDate:'DD/MM/YYYY' }}</b></p>
+  <p>{{ 'dates.shortDateFormat' | translate:{hours:'2', date:'2021-12-24T16:55:00.000+01:00', format:'YYY-MM-DD HH:mm'} }}: <b>{{ '2021-12-24T16:55:00.000+01:00' | addTime: 2 :'hours' | dateFormat: 'YYYY-MM-DD HH:mm' }}</b></p>
+  <p>{{ 'dates.shortDateFormat' | translate:{dateFrom:(increaseDate | shortDateFormat), dateTo:(today | shortDateFormat)} }}: <b>{{ increaseDate | differenceDate: today :'days': true }}</b></p>
+
+  <hr>
+  <h2><b>{{'dates.increaseTitle' | translate}}</b></h2>
+  <hr>
+  <form [formGroup]="formGroup">
+    <label>{{'dates.increaseCurrentDate' | translate}}: </label>
+    <input type="text" formControlName="increaseDay">:<span><b> {{ increaseDate }}</b></span>
+  </form>
+
+</div>

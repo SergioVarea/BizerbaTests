@@ -1,0 +1,16 @@
+// Navbar
+.biz-public-navbar-component {
+  span {
+    margin-right: var(--biz-spacing-xxx-large);
+    font: {
+      size: var(--biz-font-size-xx-small);
+    }
+    text: {
+      transform: uppercase;
+    }
+    letter-spacing: 0.05rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
