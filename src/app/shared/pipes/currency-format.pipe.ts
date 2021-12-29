@@ -17,7 +17,7 @@ export class CurrencyFormatPipe implements PipeTransform, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    throw new Error('Method not implemented.');
+    this.asyncPipe.ngOnDestroy();
   }
 
   transform(value: number | string): string | null {
